@@ -1,0 +1,31 @@
+.title{
+    font-size: 27px;
+    color: #fff;
+    margin-left: 90px;
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #C6272E;
+    color: #fff;
+    
+    height: 80px; 
+    font-weight:500;
+   
+  
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.menu{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    
+}
+.item {
+    font-size: 22px;
+   
+    text-decoration: none;
+}
