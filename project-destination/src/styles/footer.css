@@ -48,3 +48,19 @@ ul li a{
     text-decoration: none;
     color: #fff;
 }
+.col .social-icons {
+    display: flex;
+    justify-content: left;
+    gap: 15px;
+  }
+  
+  .col .social-icons a {
+    font-size: 2.2em;
+    color: #ffffff;
+    text-decoration: none;
+    
+  }
+  
+  .col .social-icons a:hover {
+    color: #000;
+  }
