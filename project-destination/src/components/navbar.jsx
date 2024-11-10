@@ -1,5 +1,5 @@
 import React from 'react';
-//import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import '../style/navbar.css';
 
 const Navbar = () => {
@@ -10,9 +10,13 @@ const Navbar = () => {
       </div>
 
       <ul className='menu'>
-        <li className='item'>Places</li>
-        <li className='item'>History</li>
-        <li className='item'>Gallery</li>
+        
+        <Link to='/places'><li className='item'>Places</li></Link>
+        <Link to='/history'><li className='item'>History</li></Link>
+        <Link to='/gallery'><li className='item'>Gallery</li></Link>
+
+
+        
         <img src="bell-icon.png" alt="bell icon" class="icon"/>
       </ul>
 
