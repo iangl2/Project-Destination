@@ -6,6 +6,7 @@ import Footer from './components/footer';
 import {Route, Routes} from 'react-router-dom'
 
 import History from './pages/History/history';
+import Home from './pages/Home/home';
 
 function App() {
   
@@ -18,7 +19,7 @@ function App() {
     </Navbar>
 
     <Routes>
-        <Route path='/' element={<h1>Home</h1>} />
+        <Route path='/' element={<Home/>} />
         <Route path="/places" element={<h1>Places</h1>} />
 
         <Route path="/history" element= {<History/>} />
