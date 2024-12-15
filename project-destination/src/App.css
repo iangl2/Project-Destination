@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.route-content{
+    background-color: #f9f5e9;
+    min-height: 100vh;          
+    padding: 20px;  
+}

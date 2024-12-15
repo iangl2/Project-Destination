@@ -16,7 +16,7 @@ function App() {
     <Navbar>
       
     </Navbar>
-
+    <div className="route-content">
     <Routes>
         <Route path='/' element={<h1>Home</h1>} />
         <Route path="/places" element={<h1>Places</h1>} />
@@ -29,6 +29,7 @@ function App() {
 
 
       </Routes>
+      </div>
 
     <Footer/>
  
