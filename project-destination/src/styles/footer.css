@@ -5,13 +5,14 @@
 }
 .footer{
     width: 100%;
-    position: absolute;
-    bottom: 0;
     background: #C6272E;
     color: #fff;
     padding: 10px 0 10px;
     font-size: 13px;
     line-height: 20px;
+    margin-top: auto;
+    position: relative; /* Añadimos esto */
+    min-height: 200px; /* Altura mínima para asegurar espacio */
 }
 .row{
     width: 85%;
@@ -22,21 +23,35 @@
     justify-content: space-between;
 }
 
+.col:first-child {
+    text-align: center;
+}
+
+.logo{
+    width: 89px;
+    height: 99px;
+    margin-bottom: 10px;
+   margin-left: 10px;
+}
+
+.col:first-child h4{
+    font-size: 20px;
+}
+.col:first-child h4,
+.col:first-child p {
+    margin-top: 5px;
+}
+
 .col{
     flex-basis: 15%;
     padding: 10px;
 }
 
-.logo{
-    width: 159px;
-    height: 169px;
-    margin-bottom: 10px;
-}
-
 .col h3{
     width: fit-content;
-    margin-bottom: 40px;
+    margin-bottom: 24px;
     position: relative;
+    font-size: 21px;
 }
 
 ul li{
@@ -47,11 +62,13 @@ ul li{
 ul li a{
     text-decoration: none;
     color: #fff;
+    font-size: 18px;
 }
 .col .social-icons {
     display: flex;
     justify-content: left;
     gap: 15px;
+    font-size: 22px;
   }
   
   .col .social-icons a {
@@ -64,3 +81,14 @@ ul li a{
   .col .social-icons a:hover {
     color: #000;
   }
+
+  .footer-bottom {
+    position: absolute;
+    bottom: 10px; /* Posicionar en la parte inferior */
+    right: 20px; /* Alinear a la derecha */
+    font-size: 0.9em;
+    color: #fff; /* Cambiamos el color para mejor visibilidad */
+    margin: 0;
+    padding: 0;
+  }
+

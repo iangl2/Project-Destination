@@ -12,13 +12,13 @@ export default function Footer() {
             <div className='row'>
             <div className="col">
                 <img src={Logo} className='logo'></img>
-                <h4>Destination</h4>
+                <h4>DestinatioN</h4>
                 <p>¿Quiénes Somos?</p>
             </div>
             <div className="col">
             <h3>Navegación</h3>
             <ul>
-            <li><a href=''>Inicio</a></li>
+            <li><a href='/'>Inicio</a></li>
             <li><a href=''>Mapa</a></li>
             <li><a href=''>Publicaciones</a></li>
             </ul>
@@ -43,7 +43,11 @@ export default function Footer() {
             <div className="col">
             <h3>Idioma</h3>
             <Idioma selected={selected} setSelected={setSelected}/>
-        </div>
+            </div>
+
+            <div className="footer-bottom">
+                <p>&copy; 2024 Copyright</p>
+             </div>
         </div>
        
        

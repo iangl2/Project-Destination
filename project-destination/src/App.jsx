@@ -10,7 +10,7 @@ import History from './pages/History/history';
 function App() {
   
   return (
-    <>
+    <div className='container'>
     
       
     <Navbar>
@@ -33,7 +33,7 @@ function App() {
 
     <Footer/>
  
-    </>
+    </div>
   )
 }
 
