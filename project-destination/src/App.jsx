@@ -6,6 +6,7 @@ import Footer from './components/footer';
 import {Route, Routes} from 'react-router-dom'
 
 import History from './pages/History/history';
+import Gallery from './pages/Gallery/gallery';
 
 function App() {
   
@@ -22,7 +23,7 @@ function App() {
         <Route path="/places" element={<h1>Places</h1>} />
 
         <Route path="/history" element= {<History/>} />
-        <Route path="/gallery" element={<h1>Gallery</h1>} />
+        <Route path="/gallery" element={<Gallery/>} />
 
         
         
