@@ -5,17 +5,20 @@
 }
 
 .gallery-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     text-align: center;
-    margin: 40px 20px 0 20px;
+    margin: 20px auto;
+    max-width: 85%;
+
 }
 
-.gallery-container .box{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+.gallery-container .box .image-container{
+    columns: 3 250px;
+    gap:15px;
 }
+
+.gallery-container .box .image-container img{
+    margin-bottom: 10px;
+    border-radius: 5px;
+    width: 100%;
+}
+

@@ -15,7 +15,7 @@ export default function Gallery() {
 
       <div className='box'>
         
-        <div className='dream'>
+        <div className='image-container'>
             <img src={imagen1} alt='Imagen 1' />
             <img src={imagen2} alt='Imagen 2' />
             <img src={imagen3} alt='Imagen 3' />
