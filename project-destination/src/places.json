@@ -1,0 +1,24 @@
+{
+    "places": [
+        {
+            "name": "Paris",
+            "image": "https://example.com/images/paris.jpg"
+        },
+        {
+            "name": "New York",
+            "image": "https://example.com/images/newyork.jpg"
+        },
+        {
+            "name": "Tokyo",
+            "image": "https://example.com/images/tokyo.jpg"
+        },
+        {
+            "name": "Sydney",
+            "image": "https://example.com/images/sydney.jpg"
+        },
+        {
+            "name": "Rio de Janeiro",
+            "image": "https://example.com/images/riodejaneiro.jpg"
+        }
+    ]
+}

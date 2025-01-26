@@ -1,0 +1,19 @@
+
+.hashtag-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px 70px;
+    background-color: #F9F5E5;
+}
+.hashtag-title{
+    font-size: 3em;
+}
+.hashtag-subtitle{
+    font-size: 1.5em;
+    font-weight: 320;
+    margin-top: 10px;
+}
+.hashtag-title, .hashtag-subtitle{
+color: #0A5D33;
+}
