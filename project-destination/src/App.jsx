@@ -6,6 +6,8 @@ import Footer from './components/footer';
 import {Route, Routes} from 'react-router-dom'
 
 import History from './pages/History/history';
+import Home from './pages/Home/home';
+import PlacesHome from './pages/Places/placeshome';
 import Gallery from './pages/Gallery/gallery';
 
 function App() {
@@ -19,8 +21,8 @@ function App() {
     </Navbar>
     <div className="route-content">
     <Routes>
-        <Route path='/' element={<h1>Home</h1>} />
-        <Route path="/places" element={<h1>Places</h1>} />
+        <Route path='/' element={<Home/>} />
+        <Route path="/places" element={<PlacesHome/>} />
 
         <Route path="/history" element= {<History/>} />
         <Route path="/gallery" element={<Gallery/>} />
