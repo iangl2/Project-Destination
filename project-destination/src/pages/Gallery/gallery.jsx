@@ -1,4 +1,4 @@
-import '../gallery-style/gallery.css'
+import './style/gallery.css'
 import imagen1 from '../../assets/img-gallery/museo-barriojpg.webp'
 import imagen2 from '../../assets/img-gallery/arco-barrio-bolivar.jpg'
 import imagen3 from '../../assets/img-gallery/catedral-barrio-bolivar.jpg'

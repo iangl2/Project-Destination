@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import '../history-style/history.css';
+import './style/history.css';
 
 export default function History() {
   const [activeTab, setActiveTab] = useState('colonial');
